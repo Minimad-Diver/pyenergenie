@@ -519,6 +519,7 @@ void radio_finished(void)
     TRACE_OUTS("radio_finished\n");
     //spi_finished();
     gpio_finished();
+    radio_standby();
 }
 
 
